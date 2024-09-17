@@ -33,7 +33,7 @@ public class VisitorController {
 	@GetMapping("generateVisitorId") // localhost:9090/visitor/generateVisitorId - GET
 	public String getRandomVisitorId() {
         Random rand = new Random();
-		return  "V00 "+rand.nextInt(100, 90000);
+		return  "V000 "+rand.nextInt(100, 90000);
 	}
 	
 	@GetMapping("meeting") // localhost:9090/visitor/meeting - GET
