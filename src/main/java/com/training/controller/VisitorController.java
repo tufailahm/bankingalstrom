@@ -36,7 +36,7 @@ public class VisitorController {
 		return  "V00 "+rand.nextInt(100, 90000);
 	}
 	
-	@GetMapping("	meeting") // localhost:9090/visitor/meeting - GET
+	@GetMapping("meeting") // localhost:9090/visitor/meeting - GET
 	public String getMeetingDetails() {
 		return  "Meeting is happening at : 8th Floor ";
 	}
