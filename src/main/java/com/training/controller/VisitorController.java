@@ -36,7 +36,12 @@ public class VisitorController {
 		return  "V00 "+rand.nextInt(100, 90000);
 	}
 	
-	@GetMapping("getManagerDetails") // localhost:9090/visitor/getManagerDetails - GET
+	@GetMapping("	meeting") // localhost:9090/visitor/getManagerDetails - GET
+	public String getMeetingDetails() {
+		return  "Meeting is happening at : 8th Floor ";
+	}
+	
+	@GetMapping("	") // localhost:9090/visitor/getManagerDetails - GET
 	public String getManagerDetails() {
 		return  "My Manager is : Missing ";
 	}
