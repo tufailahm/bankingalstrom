@@ -48,7 +48,7 @@ public class VisitorController {
 	
 	@GetMapping("getManagerDetails") // localhost:9090/visitor/getManagerDetails - GET
 	public String getManagerDetails() {
-		return  "My Manager is : Missing ";
+		return  "My Manager is :: Missing ";
 	}
 
 	@GetMapping // localhost:9090/visitor - GET
