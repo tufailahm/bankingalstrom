@@ -25,6 +25,7 @@ public class BankingalstromApplication {
 
 	@RequestMapping("/displayOrders") // localhost:9090/displayOrders
 	public String orders() {
+		System.out.println("orders called");
 		return orders.takeOrders();
 	}
 
