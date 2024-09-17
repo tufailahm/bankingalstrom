@@ -36,6 +36,10 @@ public class VisitorController {
 		return  "V00 "+rand.nextInt(100, 90000);
 	}
 	
+	@GetMapping("getManagerDetails") // localhost:9090/visitor/getManagerDetails - GET
+	public String getManagerDetails() {
+		return  "My Manager is : Missing ";
+	}
 
 	@GetMapping // localhost:9090/visitor - GET
 	public List<Visitor> getVisitors() {
